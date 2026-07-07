@@ -1,0 +1,7 @@
+{
+  "repo": "https://github.com/ryanda9910/envxray",
+  "card": "https://raw.githubusercontent.com/ryanda9910/envxray/main/assets/social-card.png",
+  "alt": "envxray results: a summary row (5 declared, 4 read, 3 high, 2 medium) then findings — DATABASE_URL and STRIPE_SECRET flagged HIGH as committed secrets, JWT_SECRET HIGH as read-but-undeclared, API_TOKEN and SMTP_HOST medium.",
+  "threads": "Dua bug env kejadian berulang: secret nyangkut di .env yang ke-commit, dan process.env.X yang dibaca kode tapi lupa ditaruh di .env, jadi prod boot dengan undefined lalu tumbang.\n\nenvxray: tempel .env kamu + kode yang membacanya, dia cek silang dan kasih tahu mana secret asli, mana yang dibaca-tapi-tak-dideklarasi, mana config mati, lalu bikinin .env.example bersih. Semua jalan di browser, .env kamu nggak pernah keluar tab.\n\nhttps://ryanda9910.github.io/envxray/",
+  "bluesky": "Two env bugs ship on repeat: a secret in a committed .env, and a process.env.X the code reads that nobody declared, so prod boots undefined. envxray cross-checks your .env against the code that reads it, flags both, and writes a clean .env.example. All in your browser, nothing uploaded."
+}
