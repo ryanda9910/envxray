@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="envxray">
+  <rect width="128" height="128" rx="28" fill="#0D0F12"/>
+  <rect x="0.5" y="0.5" width="127" height="127" rx="27.5" stroke="#38BDF8" stroke-opacity="0.2"/>
+  <!-- magnifier lens over the config -->
+  <circle cx="56" cy="56" r="26" fill="none" stroke="#38BDF8" stroke-width="8"/>
+  <path d="M76 76 L98 98" stroke="#38BDF8" stroke-width="9" stroke-linecap="round"/>
+  <!-- the leak it found, in alert red -->
+  <path d="M46 56 h20 M56 46 v20" stroke="#F87171" stroke-width="6" stroke-linecap="round"/>
+</svg>

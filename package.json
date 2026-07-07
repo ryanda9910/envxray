@@ -1,0 +1,16 @@
+{
+  "name": "envxray",
+  "version": "0.1.0",
+  "description": "Paste your .env and the code that reads it. envxray finds committed secrets, undeclared reads, and dead config, then writes a clean .env.example. Zero-dependency browser tool + Node engine.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "envxray.js",
+  "files": ["envxray.js", "index.html", "README.md"],
+  "scripts": {
+    "test": "node test/envxray.test.mjs"
+  },
+  "keywords": ["dotenv", "env", "environment-variables", "secrets", "config", "security", "12factor", "env-example"],
+  "repository": { "type": "git", "url": "git+https://github.com/ryanda9910/envxray.git" },
+  "homepage": "https://ryanda9910.github.io/envxray/",
+  "bugs": { "url": "https://github.com/ryanda9910/envxray/issues" }
+}
